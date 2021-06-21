@@ -39,14 +39,14 @@ int fprintf(FILE *stream, const char *format)
 A função **fputc()** escreve o caráter especificado por charno ficheiro apontado por *stream* e avança uma posição. Retorna o caráter que foi escrito ou EOF se ocorrer um erro.
 
 ```c
-int fputsc(int char, FILE *name)
+int fputc(int char, FILE *stream)
 ```
 
 ### fputs()
 A função **fputs()** escreve uma string especificada por strno ficheiro apontado por *stream* sem incluir o caráter de fim de string. Retorna um valor não negativo ou EOF se ocorrer um erro.
 
 ```c
-int fgetc(FILE *stream)
+int fputs(const char *str, FILE *stream)
 ```
 
 ### fgets()
